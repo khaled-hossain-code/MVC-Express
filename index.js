@@ -1,6 +1,7 @@
 var express = require('express'),
     app = express(),
-    bodyParser = require('body-Parser');
+    bodyParser = require('body-Parser'),
+    session = require('express-session');
 
 var userCtrl = require('./controllers/userCtrl');
 
